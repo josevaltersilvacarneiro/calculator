@@ -9,4 +9,4 @@ _start:
 	mov	rdi, 1		; argument #1 in rdi: where write (descritor) ?
 	mov	rsi, message	; argument #2 in rsi: where start the string  ?
 	mov	rdx, 14		; argument #3 in rdx: How much bytes must be  ?
-	syscall			: this instruction mades a system cal
+	syscall			; this instruction mades a system cal
