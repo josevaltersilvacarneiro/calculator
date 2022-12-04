@@ -1,9 +1,9 @@
 global _start
 
-section.data
+section .data
 message: db 'hello, world', 10
 
-section.text
+section .text
 _start:
 	mov	rax, 1		; The system call number must be stored in rax
 	mov	rdi, 1		; argument #1 in rdi: where write (descritor) ?
